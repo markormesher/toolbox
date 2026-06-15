@@ -2,7 +2,7 @@ FROM docker.io/mikefarah/yq:4.53.3 as yq
 
 # ---
 
-FROM docker.io/debian:13.0-slim@sha256:c85a2732e97694ea77237c61304b3bb410e0e961dd6ee945997a06c788c545bb
+FROM docker.io/debian:13.5-slim@sha256:4e401d95de7083948053197a9c3913343cd06b706bf15eb6a0c3ccd26f436a0e
 
 RUN apt update \
   && apt install -y --no-install-recommends \
