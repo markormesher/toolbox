@@ -9,6 +9,7 @@ RUN apt update \
     ca-certificates \
     curl \
     jq \
+    rsync \
     tzdata \
     wget \
   && rm -rf /var/lib/apt/lists/*
