@@ -1,4 +1,4 @@
-FROM docker.io/mikefarah/yq:4.53.3 as yq
+FROM docker.io/mikefarah/yq:4.53.3@sha256:11a1f0b604b13dbbdc662260d8db6f644b22d8553122a25c1b5b2e8713ca6977 as yq
 
 # ---
 
