@@ -26,7 +26,7 @@ RUN apt update \
   && rm -rf /var/lib/apt/lists/*
 
 COPY --from=yq /usr/bin/yq /usr/bin/yq
-COPY --from=diff /work/dyff /usr/bin/dyff
+COPY --from=dyff /work/dyff /usr/bin/dyff
 
 LABEL image.name=markormesher/toolbox
 LABEL image.registry=ghcr.io
