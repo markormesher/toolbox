@@ -20,7 +20,7 @@ RUN apt update \
     curl \
     git \
     jq \
-    netcat \
+    netcat-openbsd \
     rsync \
     tzdata \
     wget \
