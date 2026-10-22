@@ -20,6 +20,7 @@ RUN apt update \
     curl \
     git \
     jq \
+    netcat \
     rsync \
     tzdata \
     wget \
