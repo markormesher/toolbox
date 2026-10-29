@@ -2,7 +2,7 @@ FROM docker.io/mikefarah/yq:4.54.1@sha256:4b3d9475d65571d28cbb19544d3820ec2945e4
 
 # ---
 
-FROM docker.io/debian:13.7-slim@sha256:89c1ea91e897f0fe0a3731595330bc45b8bdef4047464a07116f891a94054b31 AS dyff
+FROM docker.io/debian:13.7-slim@sha256:f6b08b09a05725f9431502d3b5714f5c4576e82c1a84fa1debe0c24a7e0c3ec4 AS dyff
 
 WORKDIR /work
 
@@ -12,7 +12,7 @@ RUN tar xf dyff.tgz
 
 # ---
 
-FROM docker.io/debian:13.7-slim@sha256:89c1ea91e897f0fe0a3731595330bc45b8bdef4047464a07116f891a94054b31
+FROM docker.io/debian:13.7-slim@sha256:f6b08b09a05725f9431502d3b5714f5c4576e82c1a84fa1debe0c24a7e0c3ec4
 
 RUN apt update \
   && apt install -y --no-install-recommends \
